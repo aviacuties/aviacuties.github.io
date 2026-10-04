@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AviaCuties | Tiny Style, Big Charm</title>
+<meta name="description" content="Small content creator from Visayas, Philippines sharing product finds and honest picks. Find my socials, shop links, and how to work with me.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#5a1f3d;--sky:#fde4ec;--sun:#ffd966;--rose:#e0457b;--paper:#fffafb;--line:#5a1f3d}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--sky);color:var(--ink);font:400 17px/1.6 Nunito,system-ui,sans-serif}
+main{position:relative;z-index:1;max-width:560px;margin:0 auto;padding:28px 18px 48px}
+.fx{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+.fx span{position:absolute;display:block;opacity:0;line-height:1}
+.fx .h{bottom:-40px;animation:rise linear infinite}
+.fx .s{animation:twinkle ease-in-out infinite}
+@keyframes rise{0%{transform:translate(0,0) rotate(-8deg);opacity:0}10%{opacity:.6}90%{opacity:.6}100%{transform:translate(var(--dx),-110vh) rotate(8deg);opacity:0}}
+@keyframes twinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:.9;transform:scale(1)}}
+h1,h2{font-family:Fredoka,system-ui,sans-serif;font-weight:600;line-height:1.15;margin:0}
+h1{font-size:2.4rem}
+h2{font-size:1.4rem;margin-bottom:12px}
+.hero{text-align:center;padding:12px 0 8px}
+.avatar{width:96px;height:96px;border-radius:50%;background:var(--sun);border:3px solid var(--line);display:block;object-fit:cover;margin:0 auto 14px}
+.hero p{max-width:34ch;margin:10px auto 0}
+.hero .tag{font:500 1.15rem Fredoka,system-ui,sans-serif;margin-top:6px}
+section{margin-top:30px}
+.stack{display:grid;gap:10px}
+.btn{display:block;text-decoration:none;color:var(--ink);background:var(--paper);border:2px solid var(--line);border-radius:14px;padding:13px 16px;font-weight:700;box-shadow:3px 3px 0 var(--line)}
+.btn small{display:block;font-weight:400;font-size:.88rem;opacity:.8}
+.btn:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--line)}
+.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--line)}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
+.btn.main{background:var(--sun)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.panel{background:var(--paper);border:2px solid var(--line);border-radius:18px;padding:18px}
+.panel p{margin:0 0 10px}
+.note{font-size:.88rem;opacity:.85}
+footer{margin-top:34px;font-size:.85rem}
+footer a{color:var(--ink)}
+details{margin-top:10px}
+summary{cursor:pointer;font-weight:700}
+@media (max-width:380px){.grid2{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}.fx{display:none}}
+</style>
+</head>
+<body>
+<div class="fx" id="fx" aria-hidden="true"></div>
+<main>
+
+<header class="hero">
+  <img class="avatar" src="profile.jpg.png" alt="AviaCuties logo" width="96" height="96">
+  <h1>AviaCuties</h1>
+  <p class="tag">Tiny Style, Big Charm</p>
+  <!-- Palitan ang intro text -->
+  <p>Small content creator from Visayas, Philippines. I share product finds and honest picks, from kids' clothes to everyday <span style="white-space:nowrap">must-haves</span>.</p>
+</header>
+
+<section aria-labelledby="socials">
+  <h2 id="socials">Follow me</h2>
+  <div class="grid2">
+    <!-- Palitan ang # ng link ng account mo. Burahin ang hindi mo gamit. -->
+    <a class="btn" href="https://www.tiktok.com/@aviacutiess" rel="noopener">TikTok</a>
+    <a class="btn" href="https://www.instagram.com/aviacutiess" rel="noopener">Instagram</a>
+    <a class="btn" href="https://www.facebook.com/share/1F1wF6pJJU/" rel="noopener">Facebook</a>
+    <a class="btn" href="https://pin.it/56ah3OWCk" rel="noopener">Pinterest</a>
+    <a class="btn" href="https://youtube.com/@aviacuties" rel="noopener">YouTube</a>
+  </div>
+</section>
+
+<section aria-labelledby="picks">
+  <h2 id="picks">My picks</h2>
+  <div class="stack">
+    <a class="btn main" href="https://ph.shp.ee/jv8btp4p?fromSource=copy_link&amp;smtt=0.0.9" rel="sponsored noopener">Shopee picks<small>Things I use and recommend</small></a>
+    <a class="btn main" href="https://vt.tiktok.com/ZS9DyoeVPppGr-j9mZm/" rel="sponsored noopener">TikTok Shop finds<small>Items featured in my videos</small></a>
+  </div>
+  <p class="note">Some links here are affiliate links. I earn a small commission at no extra cost to you.</p>
+</section>
+
+<section aria-labelledby="work">
+  <h2 id="work">Work with me</h2>
+  <div class="panel">
+    <p>I make short-form affiliate and product content for brands. Send me a message to ask about collaborations, product reviews, or affiliate partnerships.</p>
+    <a class="btn" href="mailto:aviacuties.business@gmail.com">Email me</a>
+    <details>
+      <summary>Media kit</summary>
+      <!-- Palitan ang details -->
+      <p class="note">Platforms: TikTok, Instagram<br>Niche: Parenting, kids' fashion, product finds<br>Audience: Philippines<br>Followers: add your numbers here</p>
+    </details>
+  </div>
+</section>
+
+<footer>
+  <p><strong>Disclosure.</strong> I earn commissions from qualifying purchases through affiliate links on this page, including Shopee and TikTok Shop. Prices and availability are set by the stores and may change.</p>
+  <p><strong>Privacy.</strong> This site does not collect personal information or use cookies. If you email me, I use your address only to reply. Links to other sites follow those sites' own privacy policies.</p>
+  <p>&copy; 2026 AviaCuties</p>
+</footer>
+
+</main>
+<script>
+(function(){
+  var fx=document.getElementById('fx');
+  if(!fx||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  function r(a,b){return a+Math.random()*(b-a);}
+  var i,e,hc=['#e0457b','#ff8fb1','#f4a6c0'],sc=['#ffc933','#ffb3cc','#ffd966'];
+  for(i=0;i<14;i++){
+    e=document.createElement('span');e.className='h';e.textContent='\u2665';
+    e.style.left=r(0,96)+'%';e.style.fontSize=r(12,26)+'px';e.style.color=hc[i%3];
+    e.style.animationDuration=r(10,18)+'s';e.style.animationDelay='-'+r(0,18)+'s';
+    e.style.setProperty('--dx',r(-30,30)+'px');fx.appendChild(e);
+  }
+  for(i=0;i<16;i++){
+    e=document.createElement('span');e.className='s';e.textContent='\u2726';
+    e.style.left=r(0,96)+'%';e.style.top=r(0,96)+'%';e.style.fontSize=r(10,20)+'px';e.style.color=sc[i%3];
+    e.style.animationDuration=r(2.5,5)+'s';e.style.animationDelay='-'+r(0,5)+'s';fx.appendChild(e);
+  }
+})();
+</script>
+</body>
+</html>
